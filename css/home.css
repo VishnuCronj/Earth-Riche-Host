@@ -104,7 +104,7 @@ p {
 
 
   /* Showcase */
-  #showcase {    
+  #showcase {
     background-image: url('../img/backrounds/showcase-bg.svg');
     height: auto;
     width: 100%;
@@ -522,7 +522,7 @@ p {
     margin-right: 16px;
   }
 
-  #testimonials .testimonials-container .profile-container .testimonials-person img{
+  #testimonials .testimonials-container .profile-container .testimonials-person img {
     width: 26px;
   }
 
@@ -654,27 +654,27 @@ p {
     margin-bottom: 12px;
     line-height: 12px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-input {
     background-color: #F2F2F2;
     width: 100%;
     height: auto;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 14px; 
+    padding: 14px;
     opacity: 1;
     margin-bottom: 10px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-area {
     background-color: #F2F2F2;
     width: 100%;
     height: 100px;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 10px; 
-    resize: none; 
-    overflow: auto; 
+    padding: 10px;
+    resize: none;
+    overflow: auto;
     opacity: 1;
     display: flex;
   }
@@ -686,18 +686,18 @@ p {
     height: 39px;
     border: none;
     display: flex;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 0px;
-    padding: 0; 
+    padding: 0;
     border-radius: 20px;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     cursor: pointer;
-}
+  }
 
 
   /* Footer */
@@ -760,6 +760,7 @@ p {
   #footer .connect-with-us-addresses {
     margin: 20px;
   }
+
   #footer .connect-with-us-addresses h2 {
     margin-top: 22px;
   }
@@ -794,12 +795,13 @@ p {
   #footer .connect-with-us-social ul li {
     padding-bottom: 100px;
   }
+
   #footer .connect-with-us-social h3 {
     margin-left: 0;
   }
 
   #footer .connect-with-us-social .icons img {
-   margin-left: 0;
+    margin-left: 0;
     padding: 10px;
   }
 
@@ -873,7 +875,7 @@ p {
 
 
   /* Showcase */
-  #showcase {    
+  #showcase {
     background-image: url('../img/backrounds/showcase-bg.svg');
     height: auto;
     width: 100%;
@@ -1289,7 +1291,7 @@ p {
     margin-right: 16px;
   }
 
-  #testimonials .testimonials-container .profile-container .testimonials-person img{
+  #testimonials .testimonials-container .profile-container .testimonials-person img {
     width: 26px;
   }
 
@@ -1421,27 +1423,27 @@ p {
     margin-bottom: 12px;
     line-height: 12px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-input {
     background-color: #F2F2F2;
     width: 100%;
     height: auto;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 14px; 
+    padding: 14px;
     opacity: 1;
     margin-bottom: 10px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-area {
     background-color: #F2F2F2;
     width: 100%;
     height: 100px;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 10px; 
-    resize: none; 
-    overflow: auto; 
+    padding: 10px;
+    resize: none;
+    overflow: auto;
     opacity: 1;
     display: flex;
   }
@@ -1522,6 +1524,7 @@ p {
   #footer .connect-with-us-addresses {
     margin: 20px;
   }
+
   #footer .connect-with-us-addresses h2 {
     margin-top: 22px;
   }
@@ -1556,12 +1559,13 @@ p {
   #footer .connect-with-us-social ul li {
     padding-bottom: 100px;
   }
+
   #footer .connect-with-us-social h3 {
     margin-left: 0;
   }
 
   #footer .connect-with-us-social .icons img {
-   margin-left: 0;
+    margin-left: 0;
     padding: 10px;
   }
 }
@@ -1943,6 +1947,7 @@ p {
     margin-bottom: 22px;
     padding-top: 0px;
   }
+
   #testimonials .testimonials-dialogs {
     display: flex;
     align-items: center;
@@ -2019,7 +2024,7 @@ p {
     margin-right: 16px;
   }
 
-  #testimonials .testimonials-container .profile-container .testimonials-person img{
+  #testimonials .testimonials-container .profile-container .testimonials-person img {
     width: 26px;
   }
 
@@ -2151,27 +2156,27 @@ p {
     margin-bottom: 12px;
     line-height: 12px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-input {
     background-color: #F2F2F2;
     width: 100%;
     height: auto;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 14px; 
+    padding: 14px;
     opacity: 1;
     margin-bottom: 10px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-area {
     background-color: #F2F2F2;
     width: 100%;
     height: 100px;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 10px; 
-    resize: none; 
-    overflow: auto; 
+    padding: 10px;
+    resize: none;
+    overflow: auto;
     opacity: 1;
     display: flex;
   }
@@ -2183,21 +2188,29 @@ p {
     height: 39px;
     border: none;
     display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 0px;
-    padding: 0; /* Remove padding */
-    border-radius: 20px; /* Rounded corners */
-    font-family: 'Inter', sans-serif; /* Set font family */
-    font-size: 16px; /* Adjust font size */
-    text-transform: uppercase; /* Convert text to uppercase */
-    cursor: pointer; /* Show pointer cursor on hover */
-}
+    padding: 0;
+    /* Remove padding */
+    border-radius: 20px;
+    /* Rounded corners */
+    font-family: 'Inter', sans-serif;
+    /* Set font family */
+    font-size: 16px;
+    /* Adjust font size */
+    text-transform: uppercase;
+    /* Convert text to uppercase */
+    cursor: pointer;
+    /* Show pointer cursor on hover */
+  }
 
 
-  
+
   /* Footer */
   #footer {
     width: 100%;
@@ -2231,6 +2244,7 @@ p {
     margin-top: 22px;
     margin-left: 0;
   }
+
   #footer ul li img {
     margin: 0;
   }
@@ -2674,6 +2688,7 @@ p {
     margin-bottom: 22px;
     padding-top: 0px;
   }
+
   #testimonials .testimonials-dialogs {
     display: flex;
     align-items: center;
@@ -2750,7 +2765,7 @@ p {
     margin-right: 16px;
   }
 
-  #testimonials .testimonials-container .profile-container .testimonials-person img{
+  #testimonials .testimonials-container .profile-container .testimonials-person img {
     width: 26px;
   }
 
@@ -2870,27 +2885,27 @@ p {
     margin-bottom: 12px;
     line-height: 12px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-input {
     background-color: #F2F2F2;
     width: 226px;
     height: 25px;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 14px; 
+    padding: 14px;
     opacity: 1;
     margin-bottom: 10px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-area {
     background-color: #F2F2F2;
     width: 226px;
     height: 80px;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 10px; 
-    resize: none; 
-    overflow: auto; 
+    padding: 10px;
+    resize: none;
+    overflow: auto;
     opacity: 1;
   }
 
@@ -2909,7 +2924,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
   }
-  
+
   /* Footer */
   #footer {
     width: 100%;
@@ -2943,6 +2958,7 @@ p {
     margin-top: 22px;
     margin-left: 0;
   }
+
   #footer ul li img {
     margin: 0;
   }
@@ -3006,7 +3022,7 @@ p {
     margin-right: 10px;
   }
 
-} 
+}
 
 /* Styles for screens with a minimum width of 1024 pixels (e.g., desktops) */
 @media screen and (min-width: 1024px) {
@@ -3382,7 +3398,7 @@ p {
     font-size: .85rem;
   }
 
- 
+
   #testimonials .testimonials-dialogs {
     display: flex;
     align-items: center;
@@ -3568,18 +3584,18 @@ p {
     margin-bottom: 15px;
     line-height: 22px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-input {
     width: 326px;
     height: 35px;
     background: transparent url('img/Rectangle 10.png') 0% 0% no-repeat padding-box;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 14px; 
+    padding: 14px;
     opacity: 1;
     margin-bottom: 20px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-area {
     top: 4502px;
     left: 870px;
@@ -3588,9 +3604,9 @@ p {
     background: transparent url('img/Rectangle 10.png') 0% 0% no-repeat padding-box;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 10px; 
-    resize: none; 
-    overflow: auto; 
+    padding: 10px;
+    resize: none;
+    overflow: auto;
     opacity: 1;
   }
 
@@ -3609,7 +3625,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
   }
-  
+
   /* Footer */
   #footer {
     width: 100%;
@@ -4273,7 +4289,7 @@ p {
     margin-bottom: 32px;
     line-height: 22px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-input {
     top: 4307px;
     left: 870px;
@@ -4282,11 +4298,11 @@ p {
     background: transparent url('img/Rectangle 10.png') 0% 0% no-repeat padding-box;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 14px; 
+    padding: 14px;
     opacity: 1;
     margin-bottom: 20px;
   }
-  
+
   #contact-inquiry .contact-right-section .text-area {
     top: 4502px;
     left: 870px;
@@ -4295,9 +4311,9 @@ p {
     background: transparent url('img/Rectangle 10.png') 0% 0% no-repeat padding-box;
     border: 0.7px solid #452A3B59;
     border-radius: 4px;
-    padding: 10px; 
-    resize: none; 
-    overflow: auto; 
+    padding: 10px;
+    resize: none;
+    overflow: auto;
     opacity: 1;
   }
 
@@ -4315,7 +4331,7 @@ p {
     white-space: nowrap;
     overflow: hidden;
   }
-  
+
   /* Footer */
   #footer {
     width: 100%;

@@ -35,8 +35,8 @@ p {
 
 /* Styles for screens with a maximum width of 480 pixels (e.g., mobile phones) */
 @media screen and (max-width: 480px) {
-
     /* CSS styles for mobile phones */
+    
     /* Navbar */
     #header {
         width: 100%;
@@ -183,6 +183,7 @@ p {
     #explore .variants #row {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
         margin: 0;
     }
@@ -283,19 +284,19 @@ p {
         margin-left: 20px;
     }
 
-    #makhana-card {
+    #keshar-card {
         position: relative;
         display: inline-block;
         margin-top: 60px;
     }
 
-    #makhana-card img {
+    #keshar-card img {
         display: block;
         width: 90%;
         height: auto;
     }
 
-    #makhana-card h1 {
+    #keshar-card h1 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -306,49 +307,50 @@ p {
         color: #fff;
         font-size: .75rem;
     }
-
     #discover-description {
         display: flex;
         flex-direction: row;
         margin-top: 60px;
     }
 
-    #discover-description .right-section {
+    #discover-description .left-section {
         width: 50%;
         height: auto;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end;
-        padding-right: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0px;
+        padding-left: 20px;
     }
 
-    #discover-description .right-section h1 {
+    #discover-description .left-section h1 {
         font-size: .75rem;
         line-height: 24px;
-        margin-bottom: 10px;
-        margin-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
-    #discover-description .right-section p {
+    #discover-description .left-section p {
         font-size: .65rem;
         line-height: 18px;
+        margin-top: 10px;
     }
 
-    #discover-description .left-section {
+    #discover-description .right-section {
         width: 50%;
         height: auto;
         background-size: contain;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 20px;
-        margin-right: 20px;
+        padding-right: 20px;
     }
 
-    #discover-description .left-section img {
+    #discover-description .right-section img {
         width: 100%;
         height: auto;
+        margin-left: 20px;
     }
 
     #why {
@@ -652,6 +654,7 @@ p {
     #explore .variants #row {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
         margin: 0;
     }
@@ -754,19 +757,19 @@ p {
         margin-left: 20px;
     }
 
-    #makhana-card {
+    #keshar-card {
         position: relative;
         display: inline-block;
         margin-top: 60px;
     }
 
-    #makhana-card img {
+    #keshar-card img {
         display: block;
         width: 90%;
         height: auto;
     }
 
-    #makhana-card h1 {
+    #keshar-card h1 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1119,6 +1122,7 @@ p {
     #explore .variants #row {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
         margin: 0;
     }
@@ -1221,19 +1225,19 @@ p {
         margin-left: 20px;
     }
 
-    #makhana-card {
+    #keshar-card {
         position: relative;
         display: inline-block;
         margin-top: 60px;
     }
 
-    #makhana-card img {
+    #keshar-card img {
         display: block;
         width: 90%;
         height: auto;
     }
 
-    #makhana-card h1 {
+    #keshar-card h1 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1244,50 +1248,52 @@ p {
         color: #fff;
         font-size: 20px;
     }
-
     #discover-description {
         display: flex;
         flex-direction: row;
-        margin-top: 60px;
+        margin-top: 80px;
     }
 
-    #discover-description .right-section {
+    #discover-description .left-section {
         width: 50%;
         height: auto;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end;
-        padding-right: 60px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0px;
+        padding-left: 20px;
     }
 
-    #discover-description .right-section h1 {
+    #discover-description .left-section h1 {
         font-size: 20px;
         line-height: 34px;
-        margin-bottom: 10px;
-        margin-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
-    #discover-description .right-section p {
+    #discover-description .left-section p {
         font-size: .65rem;
         line-height: 18px;
+        margin-top: 10px;
     }
 
-    #discover-description .left-section {
+    #discover-description .right-section {
         width: 50%;
         height: auto;
         background-size: contain;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 60px;
-        margin-right: 40px;
+        padding-right: 60px;
     }
 
-    #discover-description .left-section img {
+    #discover-description .right-section img {
         width: 100%;
         height: auto;
+        margin-left: 20px;
     }
+
 
     #why {
         display: flex;
@@ -1579,6 +1585,8 @@ p {
     #explore .variants #row {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         margin: 0;
     }
 
@@ -1678,19 +1686,19 @@ p {
         margin-left: 20px;
     }
 
-    #makhana-card {
+    #keshar-card {
         position: relative;
         display: inline-block;
         margin-top: 60px;
     }
 
-    #makhana-card img {
+    #keshar-card img {
         display: block;
         width: 90%;
         height: auto;
     }
 
-    #makhana-card h1 {
+    #keshar-card h1 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1704,40 +1712,48 @@ p {
     #discover-description {
         display: flex;
         flex-direction: row;
-        margin-top: 60px;
+        margin-top: 80px;
     }
 
-    #discover-description .right-section {
+    #discover-description .left-section {
         width: 50%;
         height: auto;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end;
-        padding-right: 60px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0px;
+        padding-left: 20px;
     }
 
-    #discover-description .right-section h1 {
+    #discover-description .left-section h1 {
         font-size: 26px;
         line-height: 34px;
-        margin-bottom: 15px;
+        padding-bottom: 0;
+        margin-bottom: 0;
         margin-left: 0;
     }
 
-    #discover-description .right-section p {
+    #discover-description .left-section p {
         font-size: .75rem;
         line-height: 28px;
+        margin-top: 15px;
     }
 
-    #discover-description .left-section {
+    #discover-description .right-section {
         width: 50%;
         height: auto;
         background-size: contain;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 60px;
-        margin-right: 40px;
+        padding-right: 60px;
+    }
+
+    #discover-description .right-section img {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
     }
 
 
@@ -1883,7 +1899,7 @@ p {
 }
 
 /* Styles for screens with a minimum width of 1024 pixels (e.g., desktops) */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
     /* CSS styles for desktops */
 
     /* Navbar */
@@ -2022,6 +2038,8 @@ p {
     #explore .variants #row {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         margin: 0;
     }
 
@@ -2118,19 +2136,19 @@ p {
         height: auto;
     }
 
-    #makhana-card {
+    #keshar-card {
         position: relative;
         display: inline-block;
         margin-top: 130px;
     }
 
-    #makhana-card img {
+    #keshar-card img {
         display: block;
         width: 90%;
         height: auto;
     }
 
-    #makhana-card h1 {
+    #keshar-card h1 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -2141,43 +2159,54 @@ p {
         color: #fff;
     }
 
+    
     #discover-description {
         display: flex;
         flex-direction: row;
         margin-top: 120px;
     }
 
-    #discover-description .right-section {
+    #discover-description .left-section {
         width: 50%;
         height: auto;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-end;
-        padding-right: 60px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0px;
+        padding-left: 60px;
     }
 
-    #discover-description .right-section h1 {
+    #discover-description .left-section h1 {
         font-size: 30px;
         line-height: 34px;
         margin-bottom: 32px;
-        margin-left: 0;
     }
 
-    #discover-description .right-section p {
+    #discover-description .left-section p {
         font-size: 16px;
         line-height: 28px;
     }
 
-    #discover-description .left-section {
+    #discover-description .right-section {
         width: 50%;
         height: auto;
         background-size: contain;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 60px;
-        margin-right: 40px;
+        padding-right: 60px;
+    }
+
+    #discover-description .right-section {
+        width: 100px;
+        height: auto;
+    }
+
+    #keshar-card {
+        position: relative;
+        display: inline-block;
+        margin-top: 130px;
     }
 
     #why {
@@ -2468,6 +2497,8 @@ p {
     #explore .variants #row {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         margin: 0;
     }
 
@@ -2553,19 +2584,19 @@ p {
         justify-content: center;
     }
 
-    #makhana-card {
+    #keshar-card {
         position: relative;
         display: inline-block;
         margin-top: 130px;
     }
 
-    #makhana-card img {
+    #keshar-card img {
         display: block;
         width: 90%;
         height: auto;
     }
 
-    #makhana-card h1 {
+    #keshar-card h1 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -2596,7 +2627,6 @@ p {
         font-size: 32px;
         line-height: 44px;
         margin-bottom: 32px;
-        margin-left: 0;
     }
 
     #discover-description .left-section p {
@@ -2611,11 +2641,6 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    #discover-description .right-section img {
-        width: 100%;
-        height: auto;
     }
 
     #why {
