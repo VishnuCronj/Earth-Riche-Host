@@ -103,8 +103,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* faq */
+    #faq {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -114,38 +114,70 @@ p {
         margin-right: 20px;
     }
 
-    #terms .header {
+    #faq .header {
         color: #452A3B75;
         font-size: .55rem;
     }
 
-    #terms h1 {
+    #faq h1 {
         font-size: 1rem;
         text-align: center;
         padding-top: 12px;
-        padding-bottom: 12px;
+        padding-bottom: 30px;
     }
 
-    #terms-description {
-        background: #F9F8F5;
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 10px;
+    .expandable-card {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        /* Initial background color */
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 20px;
+        border-radius: 8px;
     }
 
-    #terms-description .term-explanation h1 {
-        margin-bottom: 10px;
-        font-size: 1rem;
+    .expandable-card.expanded {
+        background-color: #F2EDE4;
+        /* Background color when expanded */
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 40px;
+    .expandable-view {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .text {
+        flex: 1;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 10px;
+    }
+
+    .toggle-icon {
+        font-size: 12px;
+    }
+
+    .toggle-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .expandable-content {
+        display: none;
+        padding-left: 25px;
+        padding-bottom: 30px;
+        padding-right: 30px;
         font-size: .65rem;
-        line-height: 20px;
+        line-height: 18px;
+    }
+
+    .expandable-card.expanded .expandable-content {
+        display: block;
     }
 
 
@@ -336,8 +368,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* faq */
+    #faq {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -347,40 +379,66 @@ p {
         margin-right: 20px;
     }
 
-    #terms .header {
+    #faq .header {
         color: #452A3B75;
         font-size: .65rem;
     }
 
-    #terms h1 {
+    #faq h1 {
         font-size: 20px;
         text-align: center;
         padding-top: 12px;
-        padding-bottom: 12px;
+        padding-bottom: 42px;
     }
 
-
-    #terms-description {
-        background: #F9F8F5;
-        padding-top: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 50px;
+    .expandable-card {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        /* Initial background color */
+        margin-left: 60px;
+        margin-right: 60px;
+        border-radius: 8px;
     }
 
-    #terms-description .term-explanation h1 {
-        margin-bottom: 20px;
-        font-size: 1rem;
+    .expandable-card.expanded {
+        background-color: #F2EDE4;
+        /* Background color when expanded */
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 50px;
-        font-size: .75rem;
-        line-height: 20px;
+    .expandable-view {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
     }
+
+    .text {
+        flex: 1;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 10px;
+    }
+
+    .toggle-icon {
+        font-size: 12px;
+    }
+
+    .expandable-content {
+        display: none;
+        padding-left: 25px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        font-size: .65rem;
+        line-height: 18px;
+    }
+
+    .expandable-card.expanded .expandable-content {
+        display: block;
+    }
+
 
     /* Footer */
     #footer {
@@ -550,9 +608,20 @@ p {
         align-items: flex-start;
     }
 
+    #header .dropdown {
+        position: absolute;
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
     #header .dropdown-item {
-        margin: 0;
+        margin-left: 0;
     }
 
     #header .dropdown-item a {
@@ -564,14 +633,24 @@ p {
     }
 
     #header .dropdown-item img {
-        margin-right: 10px;
+        margin-right: 5px;
         display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 0;
     }
 
     #header .dropdown-item p {
         margin: 0;
         padding-right: 10px;
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    #header .dropdown-item .side-arrow {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 0;
     }
 
     #header .dropdown {
@@ -579,16 +658,7 @@ p {
     }
 
     #header .dropdown.show {
-        position: absolute;
-        margin-top: 130px;
-        padding: 0;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        background: #fff;
-        padding: 10px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     #header .contact-btn {
@@ -601,8 +671,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* faq */
+    #faq {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -612,39 +682,64 @@ p {
         margin-right: 60px;
     }
 
-    #terms .header {
+    #faq .header {
         color: #452A3B75;
         font-size: .65rem;
     }
 
-    #terms h1 {
+    #faq h1 {
         font-size: 20px;
         text-align: center;
         padding-top: 12px;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
 
-
-    #terms-description {
-        background: #F9F8F5;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 10px;
-        margin-left: 80px;
-        margin-right: 80px;
-        margin-top: 50px;
+    .expandable-card {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        /* Initial background color */
+        margin-left: 104px;
+        margin-right: 104px;
+        border-radius: 8px;
     }
 
-    #terms-description .term-explanation h1 {
-        margin-bottom: 20px;
-        font-size: 1rem;
+    .expandable-card.expanded {
+        background-color: #F2EDE4;
+        /* Background color when expanded */
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 70px;
-        font-size: .75rem;
-        line-height: 20px;
+    .expandable-view {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .text {
+        flex: 1;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    .toggle-icon {
+        font-size: 12px;
+    }
+
+    .expandable-content {
+        display: none;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        font-size: .65rem;
+        line-height: 18px;
+    }
+
+    .expandable-card.expanded .expandable-content {
+        display: block;
     }
 
     /* Footer */
@@ -811,6 +906,60 @@ p {
     }
 
 
+    #header .dropdown {
+        position: absolute;
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #header .dropdown-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    #header .dropdown-item a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    #header .dropdown-item img {
+        margin-right: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+
+    #header .dropdown-item p {
+        margin: 0;
+        padding-right: 10px;
+    }
+
+    #header .dropdown-item .side-arrow {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    #header .dropdown {
+        display: none;
+    }
+
+    #header .dropdown.show {
+        display: flex;
+    }
+
+
     #header .dropdown-item {
         margin: 0;
     }
@@ -862,8 +1011,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* faq */
+    #faq {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -873,40 +1022,65 @@ p {
         margin-right: 60px;
     }
 
-    #terms .header {
+    #faq .header {
         color: #452A3B75;
         font-size: 1rem;
     }
 
-    #terms h1 {
+    #faq h1 {
         font-size: 30px;
         text-align: center;
         padding-top: 12px;
-        padding-bottom: 20px;
-    }
-
-
-    #terms-description {
-        background: #F9F8F5;
-        padding-top: 100px;
-        padding-left: 70px;
-        padding-right: 70px;
         padding-bottom: 50px;
-        margin-left: 103px;
-        margin-right: 103px;
-        margin-top: 80px;
     }
 
-    #terms-description .term-explanation h1 {
-        margin-bottom: 20px;
-        font-size: 20px;
+    .expandable-card {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        /* Initial background color */
+        margin-left: 104px;
+        margin-right: 104px;
+        border-radius: 8px;
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 70px;
+    .expandable-card.expanded {
+        background-color: #F2EDE4;
+        /* Background color when expanded */
+    }
+
+    .expandable-view {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .text {
+        flex: 1;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        padding-left: 20px;
         font-size: 14px;
-        line-height: 20px;
     }
+
+    .toggle-icon {
+        font-size: 18px;
+    }
+
+    .expandable-content {
+        display: none;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        font-size: .75rem;
+    }
+
+    .expandable-card.expanded .expandable-content {
+        display: block;
+    }
+
 
     /* Footer */
     #footer {
@@ -1069,8 +1243,21 @@ p {
     }
 
 
+    #header .dropdown {
+        position: absolute;
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
     #header .dropdown-item {
         margin: 0;
+        width: 100%;
     }
 
     #header .dropdown-item a {
@@ -1084,6 +1271,9 @@ p {
     #header .dropdown-item img {
         margin-right: 10px;
         display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 0;
     }
 
     #header .dropdown-item p {
@@ -1091,20 +1281,19 @@ p {
         padding-right: 10px;
     }
 
+    #header .dropdown-item .side-arrow {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
     #header .dropdown {
         display: none;
     }
 
     #header .dropdown.show {
-        position: absolute;
-        margin-top: 160px;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        background: #fff;
-        padding: 10px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     #header .contact-btn {
@@ -1119,8 +1308,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* policy */
+    #faq {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1130,38 +1319,62 @@ p {
         margin-right: 60px;
     }
 
-    #terms .header {
+    #faq .header {
         color: #452A3B75;
         font-size: 1rem;
     }
 
-    #terms h1 {
+    #faq h1 {
         font-size: 40px;
         text-align: center;
         padding-top: 12px;
-        padding-bottom: 20px;
+        padding-bottom: 70px;
     }
 
-    #terms-description {
-        background: #F9F8F5;
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 50px;
-        margin-left: 203px;
-        margin-right: 203px;
-        margin-top: 80px;
+    .expandable-card {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        /* Initial background color */
+        margin-left: 204px;
+        margin-right: 204px;
+        border-radius: 8px;
     }
 
-    #terms-description .term-explanation h1 {
-        margin-bottom: 20px;
-        font-size: 24px;
+    .expandable-card.expanded {
+        background-color: #F2EDE4;
+        /* Background color when expanded */
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 70px;
-        font-size: 16px;
-        line-height: 28px;
+    .expandable-view {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .text {
+        flex: 1;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+
+    .toggle-icon {
+        font-size: 18px;
+    }
+
+    .expandable-content {
+        display: none;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        font-size: .85rem;
+    }
+
+    .expandable-card.expanded .expandable-content {
+        display: block;
     }
 
     /* Footer */
@@ -1308,6 +1521,7 @@ p {
 
     #header .product-dropdown {
         display: flex;
+        position: relative;
     }
 
     #header .product-dropdown img {
@@ -1316,7 +1530,6 @@ p {
         display: flex;
         align-items: flex-start;
     }
-
 
     #header .dropdown {
         position: absolute;
@@ -1332,6 +1545,7 @@ p {
 
     #header .dropdown-item {
         margin: 0;
+        width: 100%;
     }
 
     #header .dropdown-item a {
@@ -1345,11 +1559,21 @@ p {
     #header .dropdown-item img {
         margin-right: 10px;
         display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 0;
     }
 
     #header .dropdown-item p {
         margin: 0;
         padding-right: 10px;
+    }
+
+    #header .dropdown-item .side-arrow {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 0;
     }
 
     #header .dropdown {
@@ -1359,6 +1583,8 @@ p {
     #header .dropdown.show {
         display: flex;
     }
+
+
 
     #header .contact-btn {
         background: url('../img/backrounds/contact-us-btn.svg') no-repeat;
@@ -1372,8 +1598,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* faq */
+    #faq {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1383,38 +1609,62 @@ p {
         margin-right: 120px;
     }
 
-    #terms .header {
+    #faq .header {
         color: #452A3B75;
         font-size: 1rem;
     }
 
-    #terms h1 {
+    #faq h1 {
         font-size: 40px;
         text-align: center;
         padding-top: 12px;
-        padding-bottom: 20px;
+        padding-bottom: 100px;
     }
 
-    #terms-description {
-        background: #F9F8F5;
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 50px;
-        margin-left: 303px;
-        margin-right: 303px;
-        margin-top: 80px;
+    .expandable-card {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        /* Initial background color */
+        margin-left: 304px;
+        margin-right: 304px;
+        border-radius: 8px;
     }
 
-    #terms-description .term-explanation h1 {
-        margin-bottom: 20px;
-        font-size: 24px;
+    .expandable-card.expanded {
+        background-color: #F2EDE4;
+        /* Background color when expanded */
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 70px;
-        font-size: 16px;
-        line-height: 28px;
+    .expandable-view {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .text {
+        flex: 1;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+
+    .toggle-icon {
+        font-size: 18px;
+    }
+
+    .expandable-content {
+        display: none;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        font-size: .85rem;
+    }
+
+    .expandable-card.expanded .expandable-content {
+        display: block;
     }
 
     /* Footer */

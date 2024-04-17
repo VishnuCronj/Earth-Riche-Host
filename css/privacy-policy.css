@@ -103,8 +103,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* policy */
+    #policy {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -114,19 +114,19 @@ p {
         margin-right: 20px;
     }
 
-    #terms .header {
+    #policy .header {
         color: #452A3B75;
         font-size: .55rem;
     }
 
-    #terms h1 {
+    #policy h1 {
         font-size: 1rem;
         text-align: center;
         padding-top: 12px;
         padding-bottom: 12px;
     }
 
-    #terms-description {
+    #policy-description {
         background: #F9F8F5;
         padding-top: 30px;
         padding-left: 30px;
@@ -137,15 +137,39 @@ p {
         margin-top: 20px;
     }
 
-    #terms-description .term-explanation h1 {
+    #policy-description .policy-explanation h1 {
         margin-bottom: 10px;
         font-size: 1rem;
     }
 
-    #terms-description .term-explanation p {
+    #policy-description .policy-explanation p {
         margin-bottom: 40px;
         font-size: .65rem;
         line-height: 20px;
+    }
+
+    .policy-description-footer {
+        background: #CC6E38;
+        color: #fff;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .policy-description-footer h1 {
+        font-size: 20px;
+    }
+
+    .policy-description-footer p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .bold {
+        font-weight: bold;
     }
 
 
@@ -336,8 +360,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* policy */
+    #policy {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -347,12 +371,12 @@ p {
         margin-right: 20px;
     }
 
-    #terms .header {
+    #policy .header {
         color: #452A3B75;
         font-size: .65rem;
     }
 
-    #terms h1 {
+    #policy h1 {
         font-size: 20px;
         text-align: center;
         padding-top: 12px;
@@ -360,7 +384,7 @@ p {
     }
 
 
-    #terms-description {
+    #policy-description {
         background: #F9F8F5;
         padding-top: 40px;
         padding-left: 40px;
@@ -371,16 +395,41 @@ p {
         margin-top: 50px;
     }
 
-    #terms-description .term-explanation h1 {
+    #policy-description .policy-explanation h1 {
         margin-bottom: 20px;
         font-size: 1rem;
     }
 
-    #terms-description .term-explanation p {
+    #policy-description .policy-explanation p {
         margin-bottom: 50px;
         font-size: .75rem;
         line-height: 20px;
     }
+
+    .policy-description-footer {
+        background: #CC6E38;
+        color: #fff;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .policy-description-footer h1 {
+        font-size: 20px;
+    }
+
+    .policy-description-footer p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
 
     /* Footer */
     #footer {
@@ -601,8 +650,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* policy */
+    #policy {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -612,12 +661,12 @@ p {
         margin-right: 60px;
     }
 
-    #terms .header {
+    #policy .header {
         color: #452A3B75;
         font-size: .65rem;
     }
 
-    #terms h1 {
+    #policy h1 {
         font-size: 20px;
         text-align: center;
         padding-top: 12px;
@@ -625,7 +674,7 @@ p {
     }
 
 
-    #terms-description {
+    #policy-description {
         background: #F9F8F5;
         padding-top: 50px;
         padding-left: 50px;
@@ -636,15 +685,39 @@ p {
         margin-top: 50px;
     }
 
-    #terms-description .term-explanation h1 {
+    #policy-description .policy-explanation h1 {
         margin-bottom: 20px;
         font-size: 1rem;
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 70px;
+    #policy-description .policy-explanation p {
+        margin-bottom: 30px;
         font-size: .75rem;
         line-height: 20px;
+    }
+
+    .policy-description-footer {
+        background: #CC6E38;
+        color: #fff;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .policy-description-footer h1 {
+        font-size: 20px;
+    }
+
+    .policy-description-footer p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .bold {
+        font-weight: bold;
     }
 
     /* Footer */
@@ -862,8 +935,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* policy */
+    #policy {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -873,12 +946,12 @@ p {
         margin-right: 60px;
     }
 
-    #terms .header {
+    #policy .header {
         color: #452A3B75;
         font-size: 1rem;
     }
 
-    #terms h1 {
+    #policy h1 {
         font-size: 30px;
         text-align: center;
         padding-top: 12px;
@@ -886,7 +959,7 @@ p {
     }
 
 
-    #terms-description {
+    #policy-description {
         background: #F9F8F5;
         padding-top: 100px;
         padding-left: 70px;
@@ -897,15 +970,39 @@ p {
         margin-top: 80px;
     }
 
-    #terms-description .term-explanation h1 {
+    #policy-description .policy-explanation h1 {
         margin-bottom: 20px;
         font-size: 20px;
     }
 
-    #terms-description .term-explanation p {
-        margin-bottom: 70px;
-        font-size: 14px;
-        line-height: 20px;
+    #policy-description .policy-explanation p {
+        margin-bottom: 40px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .policy-description-footer {
+        background: #CC6E38;
+        color: #fff;
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 50px;
+        margin-left: 103px;
+        margin-right: 103px;
+    }
+
+    .policy-description-footer h1 {
+        font-size: 20px;
+    }
+
+    .policy-description-footer p {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .bold {
+        font-weight: bold;
     }
 
     /* Footer */
@@ -1068,45 +1165,6 @@ p {
         align-items: flex-start;
     }
 
-
-    #header .dropdown-item {
-        margin: 0;
-    }
-
-    #header .dropdown-item a {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        margin-top: 20px;
-    }
-
-    #header .dropdown-item img {
-        margin-right: 10px;
-        display: flex;
-    }
-
-    #header .dropdown-item p {
-        margin: 0;
-        padding-right: 10px;
-    }
-
-    #header .dropdown {
-        display: none;
-    }
-
-    #header .dropdown.show {
-        position: absolute;
-        margin-top: 160px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        background: #fff;
-        padding: 10px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
     #header .contact-btn {
         background: url('../img/backrounds/contact-us-btn.svg') no-repeat;
         /* Add background image */
@@ -1119,8 +1177,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* policy */
+    #policy {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1130,19 +1188,19 @@ p {
         margin-right: 60px;
     }
 
-    #terms .header {
+    #policy .header {
         color: #452A3B75;
         font-size: 1rem;
     }
 
-    #terms h1 {
+    #policy h1 {
         font-size: 40px;
         text-align: center;
         padding-top: 12px;
         padding-bottom: 20px;
     }
 
-    #terms-description {
+    #policy-description {
         background: #F9F8F5;
         padding-top: 100px;
         padding-left: 100px;
@@ -1153,15 +1211,30 @@ p {
         margin-top: 80px;
     }
 
-    #terms-description .term-explanation h1 {
+    #policy-description .policy-explanation h1 {
         margin-bottom: 20px;
         font-size: 24px;
     }
 
-    #terms-description .term-explanation p {
+    #policy-description .policy-explanation p {
         margin-bottom: 70px;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 28px;
+    }
+
+    .policy-description-footer {
+        background: #CC6E38;
+        color: #fff;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        margin-left: 203px;
+        margin-right: 203px;
+    }
+
+    .bold {
+        font-weight: bold;
     }
 
     /* Footer */
@@ -1317,19 +1390,6 @@ p {
         align-items: flex-start;
     }
 
-
-    #header .dropdown {
-        position: absolute;
-        margin-top: 160px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        background: #fff;
-        padding: 10px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
     #header .dropdown-item {
         margin: 0;
     }
@@ -1357,7 +1417,15 @@ p {
     }
 
     #header .dropdown.show {
+        position: absolute;
+        margin-top: 160px;
         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     #header .contact-btn {
@@ -1372,8 +1440,8 @@ p {
         cursor: pointer;
     }
 
-    /* terms */
-    #terms {
+    /* policy */
+    #policy {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1383,19 +1451,19 @@ p {
         margin-right: 120px;
     }
 
-    #terms .header {
+    #policy .header {
         color: #452A3B75;
         font-size: 1rem;
     }
 
-    #terms h1 {
+    #policy h1 {
         font-size: 40px;
         text-align: center;
         padding-top: 12px;
         padding-bottom: 20px;
     }
 
-    #terms-description {
+    #policy-description {
         background: #F9F8F5;
         padding-top: 100px;
         padding-left: 100px;
@@ -1406,15 +1474,30 @@ p {
         margin-top: 80px;
     }
 
-    #terms-description .term-explanation h1 {
+    #policy-description .policy-explanation h1 {
         margin-bottom: 20px;
         font-size: 24px;
     }
 
-    #terms-description .term-explanation p {
+    #policy-description .policy-explanation p {
         margin-bottom: 70px;
         font-size: 16px;
         line-height: 28px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .policy-description-footer {
+        background: #CC6E38;
+        color: #fff;
+        margin-left: 303px;
+        margin-right: 303px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     /* Footer */

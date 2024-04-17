@@ -7,27 +7,66 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="../css/about.css">
     <title>About</title>
 </head>
 
 <body>
     <header id="header">
-        <div class="logo"> <img src="./img/assets/header-logo.png" alt=""></div>
+        <!-- <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div> -->
+        <div class="logo"> <img src="../img/assets/header-logo.png" alt=""></div>
+        <!-- <div class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Product.html" class="nav-link">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="About.html" class="nav-link">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link">CONTACT US</a>
+                </li>
+            </ul>
+        </div> -->
         <div class="navigation">
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a class="product-dropdown" href="home.html">Product<img src="./img/assets/ic-dropdown.svg"
+                <li><a href="index.html">Home</a></li>
+                <li><a class="product-dropdown" href="#">Product<img src="../img/assets/ic-dropdown.svg"
                             alt=""></a></li>
-                <li><a href="home.html">About Us</a></li>
+                <div class="dropdown">
+                    <div class="dropdown-item">
+                        <a href="product.html">
+                            <img src="../img/assets/dropdown-makhana.png" alt="">
+                            <p>Makhana</p>
+                            <img src="../img/assets/ic-side-arrow.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a href="product-keshar.html">
+                            <img src="../img/assets/dropdown-keshar.png" alt="">
+                            <p>Keshar</p>
+                            <img src="../img/assets/ic-side-arrow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <li><a href="about.html">About Us</a></li>
             </ul>
         </div>
         <a href="contact-us.html" class="contact-btn"></a>
     </header>
+    <script src="../js/product-dropdown.js"></script>
+
 
     <!-- showcase -->
     <div id="showcase">
-        <img src="./img/backrounds/about/about-showcase.png" alt="">
+        <img src="../img/backrounds/about/about-showcase.png" alt="">
     </div>
 
     <!-- about -->
@@ -51,7 +90,7 @@
     <!-- story -->
     <div id="story-description">
         <div class="left-section">
-            <img src="./img/backrounds/product/discover-makhana.png" alt="">
+            <img src="../img/backrounds/product/discover-makhana.png" alt="">
         </div>
         <div class="right-section">
             <h1>Discover the Delight of Makhana</h1>
@@ -78,7 +117,7 @@
                     </p>
                 </div>
                 <div class="card-bottom-section">
-                    <img src="./img/backrounds/about/about-makhana.png" alt="">
+                    <img src="../img/backrounds/about/about-makhana.png" alt="">
                 </div>
             </div>
             <div class="card-container">
@@ -92,7 +131,7 @@
                         and potency, making it a prized addition to culinary creations and wellness rituals alike.</p>
                 </div>
                 <div class="card-bottom-section">
-                    <img src="./img/backrounds/about/about-keshar.png" alt="">
+                    <img src="../img/backrounds/about/about-keshar.png" alt="">
                 </div>
             </div>
         </div>
@@ -109,7 +148,7 @@
                 unparalleled value to our customers.</p>
         </div>
         <div class="right-section">
-            <img src="./img/backrounds/product/discover-makhana.png" alt="">
+            <img src="../img/backrounds/product/discover-makhana.png" alt="">
         </div>
     </div>
 
@@ -127,13 +166,13 @@
                     <li>
                         <h3>Earth Riche Exports</h3>
                     </li>
-                    <li><img src="./img/assets/map-marker-home-orange.svg" alt="">
+                    <li><img src="../img/assets/map-marker-home-orange.svg" alt="">
                         <p>MBZ-19, Abu Dhabi, UAE</p>
                     </li>
-                    <li><img src="./img/assets/phone-call-orange.svg" alt="">
+                    <li><img src="../img/assets/phone-call-orange.svg" alt="">
                         <p>+97 1556 6938 26</p>
                     </li>
-                    <li><img src="./img/assets/envelope-orange.svg" alt="">
+                    <li><img src="../img/assets/envelope-orange.svg" alt="">
                         <p>earthricheexports@gmail.com</p>
                     </li>
                 </ul>
@@ -167,18 +206,18 @@
             <div class="connect-with-us-addresses">
                 <ul>
                     <li>
-                        <div class="footer-image"><img src="./img/assets/footer-logo.png" alt=""></div>
+                        <div class="footer-image"><img src="../img/assets/footer-logo.png" alt=""></div>
                     </li>
                     <li>
                         <h3>Connect with Us</h3>
                     </li>
-                    <li><img src="./img/assets/ic-location.svg" alt="">
+                    <li><img src="../img/assets/ic-location.svg" alt="">
                         <p>MBZ-19, Abu Dhabi, UAE</p>
                     </li>
-                    <li><img src="./img/assets/ic-phone.svg" alt="">
+                    <li><img src="../img/assets/ic-phone.svg" alt="">
                         <p>+97 1556 6938 26</p>
                     </li>
-                    <li><img src="./img/assets/ic-mail.svg" alt="">
+                    <li><img src="../img/assets/ic-mail.svg" alt="">
                         <p>earthricheexports@gmail.com</p>
                     </li>
                 </ul>
@@ -189,13 +228,13 @@
                         <h3>Additional links</h3>
                     </li>
                     <li>
-                        <p>Terms of Service</p>
+                        <a href="terms.html">Terms of Service</a>
                     </li>
                     <li>
-                        <p>Privacy Policy</p>
+                        <a href="privacy-policy.html">Privacy Policy</a>
                     </li>
                     <li>
-                        <p>FAQs</p>
+                        <a href="faq.html">FAQs</a>
                     </li>
                 </ul>
             </div>
@@ -203,10 +242,10 @@
                 <h3>Connect with Us</h3>
                 <div class="icons">
                     <ul>
-                        <li><img src="./img/assets/ic-twitter.svg" alt=""></li>
-                        <li><img src="./img/assets/ic-facebook.svg" alt=""></li>
-                        <li><img src="./img/assets/ic-instagram.svg" alt=""></li>
-                        <li><img src="./img/assets/ic-linkedin.svg" alt=""></li>
+                        <li><img src="../img/assets/ic-twitter.svg" alt=""></li>
+                        <li><img src="../img/assets/ic-facebook.svg" alt=""></li>
+                        <li><img src="../img/assets/ic-instagram.svg" alt=""></li>
+                        <li><img src="../img/assets/ic-linkedin.svg" alt=""></li>
                     </ul>
                 </div>
             </div>
