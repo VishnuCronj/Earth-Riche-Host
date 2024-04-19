@@ -217,6 +217,10 @@ p {
         max-height: 45px;
     }
 
+    #header .logo a {
+        margin: 0;
+      }
+
     #header .navigation ul {
         display: none;
         list-style-type: none;
@@ -317,6 +321,12 @@ p {
         margin-top: 15px;
         border: none;
         cursor: pointer;
+    }
+
+    #product a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     /* explore */
@@ -839,6 +849,10 @@ p {
         max-height: 60px;
     }
 
+    #header .logo a {
+        margin: 0;
+      }
+
     #header .navigation ul {
         display: none;
         list-style-type: none;
@@ -943,6 +957,13 @@ p {
         border: none;
         cursor: pointer;
     }
+
+    #product a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 
     /* explore */
     #explore {
@@ -1454,6 +1475,14 @@ p {
         cursor: pointer;
     }
 
+    #product a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+
     /* explore */
     #explore {
         display: flex;
@@ -1958,6 +1987,13 @@ p {
         cursor: pointer;
     }
 
+    #product a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
     /* explore */
     #explore {
         display: flex;
@@ -2446,6 +2482,13 @@ p {
         margin-top: 25px;
         border: none;
         cursor: pointer;
+    }
+
+    #product a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
 
     /* explore */
@@ -2942,6 +2985,13 @@ p {
         margin-top: 25px;
         border: none;
         cursor: pointer;
+    }
+
+    #product a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
 
     /* explore */
